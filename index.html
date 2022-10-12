@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buket Sert</title>
+
+    <style>
+        .alan1{
+            color:blue;
+            font-weight: 700;
+        }
+        .alan2{
+            color:red;
+            font-weight: 700;
+        }
+        .alan3{
+            color:green;
+            font-weight: 700;
+        }
+        a{
+            color: black;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <!-- başlık 1 -->
+    <h1>Buket Sert</h1>
+
+    <hr color="#f85f80"> <!--yatay çizgi oluşturuyor ve bu çizgiye renk verdim.-->
+
+    <!-- alt başlık -->
+    <h2>Hakkımda</h2>
+
+    <!-- paragraf -->
+    <p>Merhaba, ben Buket Sert. İstanbul'da yaşıyorum. Spor yapmayı seviyorum. Bir çok spor dalında profesyonel olarak rol aldım.<br>Projelerimde tasarım ilkelerine önem veriyorum bu yüzden web geliştirme alanında kendimi geliştirmek istiyorum.</p>
+
+    <!-- alt başlık -->
+    <h3>İlgi Alanlarım</h3>
+
+    <!-- div içinde Listeleme -->
+    <div>
+        <ol>
+            <li class="alan1">Film</li>   <!-- css düzenlemesi için class tanımladım -->
+                <ul type="circle">        <!-- circle listelemede nokta işaretinin içini boşluk yapıyor. -->
+                    <li> <a href="https://www.imdb.com/title/tt1201607/"> <em> Harry Potter ve Ölüm Yadigârları: Bölüm 2</em></a></li>
+                    <li>Captain Marvel</li>
+                    <li>Son Hava Bükücü</li>
+                </ul>
+            <li class="alan2">Dizi</li>
+                <ul type="circle">
+                    <li> <a href="https://www.imdb.com/title/tt11126994/" target="_blank"><em>Arcane</em></a></li>
+                    <li>Orphan Black</li>
+                    <li>Friends</li>
+                </ul>
+            <li class="alan3">Kitap</li>
+                <ul type="circle">
+                    <li> <a href="https://www.goodreads.com/book/show/8527790-i-stanbul-hat-ras"><em>İstanbul Hatırası</em></a></li>
+                    <li>The complete poems</li>
+                    <li>Ay Işığı Sokağı</li>
+                </ul>
+        </ol>
+    </div>  
+
+    <hr color="#8b6036">
+
+    <div class="dizi">
+        <h2>En Sevdiğim Dizi</h2>
+        
+        <h3>Arcane</h3>
+    
+        <img height="400" src="img/arcane.png" alt="Arcane dizi görseli">
+        
+        <p> <strong>Arcane</strong>, Christian Linke ve Alex Yee tarafından Netflix için oluşturulan, yetişkinlere yönelik bir bilgisayar
+        <br> <span>animasyonlu aksiyon-macera akışı televizyon dizisidir.</span></p>
+
+    </div>  
+    
+</body>
+</html>
